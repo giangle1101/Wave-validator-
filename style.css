@@ -1,0 +1,51 @@
+/* 1. Style cho thẻ body: chỉnh font-family và font-size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style cho thẻ header: chỉnh background-color */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* 3. Style cho thẻ nav: chỉnh background-color */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* 4. Style cho thẻ main: chỉnh background-color và font-size */
+main {
+    background-color: #ffffff;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* 5. Style cho thẻ footer: chỉnh background-color */
+footer {
+    background-color: #e2e2e2;
+    padding: 15px;
+    text-align: center;
+}
+
+/* 6. Style cho thẻ li (list items): chỉnh display và width */
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+/* 7. Style cho thẻ h1: chỉnh text-align, font-family và color */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #2c3e50; /* Màu tối để đảm bảo không bị lỗi độ tương phản (contrast error) trên nền sáng */
+}
+
+/* 8. Style cho thẻ p: chỉnh line-height */
+p {
+    line-height: 1.6;
+}
